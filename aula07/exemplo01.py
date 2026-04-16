@@ -13,3 +13,8 @@ print(lst_meses[2:4]) # imprime a partir do índice 2 e vai até o (4-1).
 
 
 print(lst_meses)
+
+# For em lista
+
+for m in lst_meses:
+    print(m)

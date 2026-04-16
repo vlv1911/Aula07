@@ -1,5 +1,8 @@
 list_produtos = ['Notebook','Mouse','Teclado','Monitor']
 
+for p in list_produtos:
+    print(p)
+
 list_produtos[0] = 'PC'
 print(f'Altera o primeiro elemento {list_produtos}')
 
