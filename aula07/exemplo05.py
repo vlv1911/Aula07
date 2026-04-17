@@ -19,4 +19,6 @@ for l in range(2):
 print('\n -- Livros a partir de 2010 --')
 for l in livros:
     if l['ano'] >= 2010:
-        print(l)
+        # print(l)
+        print(f'Nome do livro: {l['titulo']}')
+        print(f'Ano de publicação: {l['ano']}')
